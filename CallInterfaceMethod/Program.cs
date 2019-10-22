@@ -6,7 +6,13 @@ namespace CallInterfaceMethod
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("My Propulsions");
+            
+            IamElectric electric = new Propulsion();
+            electric.IsElectric();
+
+            IamFusion fusion = new Propulsion();
+            fusion.IsFusion();
         }
     }
 }
