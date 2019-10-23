@@ -4,6 +4,7 @@ using System.Text;
 
 namespace CallInterfaceMethod
 {
+    //Implementing Interfaces
     class Propulsion : IamElectric, IamFusion
     {
         void IamElectric.IsElectric()
@@ -15,5 +16,7 @@ namespace CallInterfaceMethod
         {
             Console.WriteLine("My propulsion is fusion");
         }
+
+       
     }
 }
